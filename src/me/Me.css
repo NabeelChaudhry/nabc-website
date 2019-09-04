@@ -1,0 +1,27 @@
+.avatar {
+  display: inline-flex;
+  width: 20%;
+  height: 20%;
+}
+
+.avatar-text {
+  display: inline-table;
+  font-size: 3rem;
+  vertical-align: top;
+  margin-top: 5%;
+}
+
+.pink-border-bottom {
+  border-bottom: 5px solid;
+  border-image-source: linear-gradient(var(--main-purple),var(--main-pink));
+  border-image-slice: 1; 
+}
+
+.about-me {
+  margin-top: 50px;
+}
+
+.about-me-title {
+  width: fit-content;
+  margin: 0 auto;
+}

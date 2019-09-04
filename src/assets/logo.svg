@@ -1,0 +1,76 @@
+<svg id="n_with_diamond" data-name="n with diamond" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="225" height="225" viewBox="0 0 225 225">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #242424;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-8 {
+        fill: none;
+        stroke-width: 1px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        stroke: url(#linear-gradient-2);
+      }
+
+      .cls-5, .cls-6 {
+        stroke-width: 0.75px;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+        stroke: url(#linear-gradient-3);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-5);
+        stroke: url(#linear-gradient-5);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-7);
+        filter: url(#filter);
+      }
+
+      .cls-8 {
+        stroke: #000;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="107.281" y1="213.063" x2="107.281" y2="17.719" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c07fd0"/>
+      <stop offset="1" stop-color="#eba4d8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="201.5" y1="133" x2="201.5" y2="98" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="210.625" y1="96" x2="210.625" y2="95" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="211" y1="137" x2="211" y2="136" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="103.484" y1="182" x2="103.484" y2="44.719" xlink:href="#linear-gradient"/>
+    <filter id="filter" x="48.688" y="44.719" width="109.594" height="137.281" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="48.6875" y="44.7188" width="109.594" height="137.281" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTA5LjU5NCIgaGVpZ2h0PSIxMzcuMjgxIiB2aWV3Qm94PSIwIDAgMTA5LjU5NCAxMzcuMjgxIj4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBvcGFjaXR5OiAwLjg7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIxMDkuNTk0IiB5MT0iNjMuODQ3IiB4Mj0iMCIgeTI9IjczLjQzNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNjMDdmZDAiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZWJhNGQ4Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIxMDkuNTk0IiBoZWlnaHQ9IjEzNy4yODEiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle class="cls-1" cx="113" cy="113" r="110"/>
+  <path id="White_C" data-name="White C" class="cls-2" d="M202,137a100.3,100.3,0,0,1-25,46c-14.841,15.477-37.455,28.953-64,30-44.4,1.751-89.339-31.511-98.667-79C4.658,84.742,35.2,29.529,88.667,19.333,138.9,9.754,189.674,43.705,200,96"/>
+  <path id="Diamond_copy" data-name="Diamond copy" class="cls-3" d="M218.452,114.191a1.844,1.844,0,0,1,0,2.608L202.8,132.452a1.844,1.844,0,0,1-2.608,0L184.539,116.8a1.844,1.844,0,0,1,0-2.609l15.652-15.653a1.844,1.844,0,0,1,2.608,0Z"/>
+  <path id="Diamond_copy_2" data-name="Diamond copy 2" class="cls-4" d="M218.452,114.191a1.844,1.844,0,0,1,0,2.608L202.8,132.452a1.844,1.844,0,0,1-2.608,0L184.539,116.8a1.844,1.844,0,0,1,0-2.609l15.652-15.653a1.844,1.844,0,0,1,2.608,0Z"/>
+  <path id="Top_Line" data-name="Top Line" class="cls-5" d="M200.136,96V95h21v1h-21Z"/>
+  <path id="Bottom_Line" data-name="Bottom Line" class="cls-6" d="M202.005,137v-1h17.986v1H202.005Z"/>
+  <g>
+    <path id="N" class="cls-7" d="M157.146,90.154q4.043-18.807-6.5-32.168-10.548-13.27-29.356-13.272-18.72,0-34.893,13.272Q70.222,71.347,66.18,90.154L48.953,171.365a8.224,8.224,0,0,0,1.582,7.471A8.1,8.1,0,0,0,57.3,182h0.264a12.727,12.727,0,0,0,8.174-3.164,12.734,12.734,0,0,0,4.746-7.471L87.713,90.154A29.743,29.743,0,0,1,98.26,73.191q8.523-7.031,18.457-7.031,10.019,0,15.556,7.031,5.45,7.033,3.34,16.963l-17.226,81.211a8.223,8.223,0,0,0,1.582,7.471A8.1,8.1,0,0,0,126.736,182H127a14.1,14.1,0,0,0,12.92-10.635Z"/>
+    <path id="better_n_inline" data-name="better n inline" class="cls-8" d="M56,182c4.948-22.053,9.93-43.975,15-66q1.5-6.5,3-13l4-18a39.362,39.362,0,0,1,8-15c4.784-5.557,11.92-10.37,22-13a40.03,40.03,0,0,1,5-1c6.446-.817,17.733-0.536,26,7a26.62,26.62,0,0,1,6.5,9.063c3.715,8.6,1.669,16.722.5,21.938-1.359,6.063-1.437,10.986-3,17-4.068,15.655-10.887,47.49-16,71"/>
+  </g>
+</svg>

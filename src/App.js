@@ -1,26 +1,58 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+import SwipeableRoutes from "react-swipeable-routes";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import Me from './me/Me';
+import WorkExperience from './work-experience/WorkExperience';
+import Projects from './projects/Projects';
+
+import Art from './art/Art';
+import logo from './assets/logo.svg'
+import './App.css';
+import './media-queries.css'
+
+class App extends React.Component {
+  render() {
+    return (
+    <div className="app-container">
+      <div className="header">
+        <img src={logo} alt="nabeels logo" className="logo"/>
+      </div> 
+      <Router>
+        <div>
+          <SwipeableRoutes>
+            <Route path="/" exact component={Me} />
+            <Route path="/workexperience/" component={WorkExperience} />
+            <Route path="/projects/" component={Projects} />
+            <Route path="/art/" component={Art} />
+          </SwipeableRoutes>
+
+          <div className="nav-container"> 
+            <nav>
+              <ul className="navbar-ul">
+                <li>
+                  <NavLink to="/" exact activeClassName="active-link">ME</NavLink>
+                </li>
+                <li>|</li>
+                <li>
+                  <NavLink to="/workexperience/" activeClassName="active-link">WORK EXPERIENCE</NavLink>
+                </li>
+                <li>|</li>
+                <li>
+                  <NavLink to="/projects/" activeClassName="active-link">PROJECTS</NavLink>
+                </li>
+                <li>|</li>
+                <li>
+                  <NavLink to="/art/" activeClassName="active-link">ART</NavLink>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </Router>
     </div>
-  );
+    )
+  }
 }
 
 export default App;
