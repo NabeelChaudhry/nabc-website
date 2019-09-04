@@ -60,9 +60,13 @@ body {
 .header {
   height: 25vh;
   background-image: url('assets/header-pattern.png');
-  border-bottom: 10px solid;
-  border-image-source: linear-gradient(var(--main-purple),var(--main-pink));
-  border-image-slice: 1; 
+}
+
+.header-border {
+  border-bottom: double 10px transparent;
+  background-image: linear-gradient(var(--bg-color),var(--bg-color)), radial-gradient(circle at top left,var(--main-purple),var(--main-pink));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
   margin-bottom: 5vh;
 }
 

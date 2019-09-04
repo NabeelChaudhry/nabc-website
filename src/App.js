@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
-import SwipeableRoutes from "react-swipeable-routes";
 
 import Me from './me/Me';
 import WorkExperience from './work-experience/WorkExperience';
@@ -17,15 +16,15 @@ class App extends React.Component {
     <div className="app-container">
       <div className="header">
         <img src={logo} alt="nabeels logo" className="logo"/>
+      </div>
+      <div className="header-border">
       </div> 
       <Router>
         <div>
-          <SwipeableRoutes>
-            <Route path="/" exact component={Me} />
-            <Route path="/workexperience/" component={WorkExperience} />
-            <Route path="/projects/" component={Projects} />
-            <Route path="/art/" component={Art} />
-          </SwipeableRoutes>
+          <Route path="/" exact component={Me} />
+          <Route path="/workexperience/" component={WorkExperience} />
+          <Route path="/projects/" component={Projects} />
+          <Route path="/art/" component={Art} />
 
           <div className="nav-container"> 
             <nav>

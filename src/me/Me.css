@@ -12,9 +12,10 @@
 }
 
 .pink-border-bottom {
-  border-bottom: 5px solid;
-  border-image-source: linear-gradient(var(--main-purple),var(--main-pink));
-  border-image-slice: 1; 
+  border-bottom: double 5px transparent;
+  background-image: linear-gradient(var(--bg-color),var(--bg-color)), radial-gradient(circle at top left,var(--main-purple),var(--main-pink));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
 }
 
 .about-me {
