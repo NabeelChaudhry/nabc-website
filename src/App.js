@@ -21,10 +21,12 @@ class App extends React.Component {
       </div> 
       <Router>
         <div>
-          <Route path="/" exact component={Me} />
-          <Route path="/workexperience/" component={WorkExperience} />
-          <Route path="/projects/" component={Projects} />
-          <Route path="/art/" component={Art} />
+          <div className="routes-container">
+            <Route path="/" exact component={Me} />
+            <Route path="/workexperience/" component={WorkExperience} />
+            <Route path="/projects/" component={Projects} />
+            <Route path="/art/" component={Art} />
+          </div>
 
           <div className="nav-container"> 
             <nav>

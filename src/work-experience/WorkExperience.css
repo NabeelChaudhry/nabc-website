@@ -1,0 +1,24 @@
+.vertical-timeline-element--work h3, .vertical-timeline-element--work h4 {
+  color: var(--main-purple);
+}
+
+.vertical-timeline-element-date {
+  color: var(--main-purple) !important;
+  text-align: initial;
+  font-weight: bold !important; 
+}
+
+.vertical-timeline-element-content {
+  background: var(--main-text-colour) ;
+}
+
+/* Chrome Scrolling Fix */
+@media only screen and (max-width: 1169px) {
+  /* .vertical-timeline--animate */
+.vertical-timeline-element-content.bounce-in {
+    visibility: visible;
+    -webkit-animation: cd-bounce-2-inverse 0.6s;
+    -moz-animation: cd-bounce-2-inverse 0.6s;
+    animation: cd-bounce-2-inverse 0.6s;
+  }
+}

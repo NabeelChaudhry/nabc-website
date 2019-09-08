@@ -9,13 +9,20 @@
 
 * {
   font-family: 'Raleway', sans-serif;
-  text-align: center;
   color: var(--main-text-colour);
 }
 
 body {
   height: 100vh;
   background-color: var(--bg-color);
+}
+
+.app-container {
+  text-align: center;
+}
+
+.routes-container {
+  margin-bottom: 10%;
 }
 
 /* NAVIGATION */
